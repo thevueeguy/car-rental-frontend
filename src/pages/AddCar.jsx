@@ -32,7 +32,6 @@ function AddBike() {
             }
             const response = await addCar(JSON.stringify(data));
             toast(response.message);
-            window.location.reload(false);
         }
     }
 
